@@ -1,9 +1,125 @@
+$dark-blue: #363e56
+$med-blue: #7582ad
+$light-blue: #acbfff
+
 header, main, footer
   padding-left: 40%
+  color: $dark-blue
+
+button
+  box-shadow: none !important
+  background-color: $dark-blue !important
+
+  &:hover,
+  &:focus
+    background-color: $light-blue !important
+    color: $dark-blue
+    transition: all ease-in-out 200ms
 
 header
   ul
-    background: url("../images/Caricature-Crop.png")
+    background: url("../images/jane doe.png")
     background-position: center
     background-size: cover
     width: 40% !important
+
+  .sidenav
+    box-shadow: none
+
+main
+  .container
+    .portfolio-works
+      .col
+        padding: 0
+
+      .image-container
+        height: 15em
+
+        img
+          width: 100%
+
+    .portfolio-about
+      margin-top: 5%
+
+    .portfolio-skills
+      .progress
+        height: 20px
+        background-color: $light-blue
+
+        .determinate
+          background-color: $dark-blue
+
+      .project-stats
+        background-color: $dark-blue
+        height: 90px
+        color: white
+
+        p
+          font-size: 1.2em
+          font-weight: 500
+
+    .portfolio-reputation
+      img
+        width: 80px
+        height: 80px
+
+      .reputation-text
+        margin-left: 5%
+        padding-top: 1%
+
+        p
+          &:first-of-type
+            font-weight: 500
+            font-size: 1.2em
+
+        span
+          font-weight: 300
+          margin-left: 5%
+
+    .portfolio-price
+      .col
+        padding: 0 5% 0 0
+
+      .card-content
+        padding: 0
+
+        .card-title
+          padding: 1em 0
+          font-weight: 600
+
+        .basic-title
+          background-color: $med-blue
+          color: white
+
+        .pro-title
+          background-color: $dark-blue
+          color: white
+
+        ul
+          li
+            padding: .5em 0
+
+      .card-action
+        a
+          color: $dark-blue !important
+          font-weight: 600
+
+          &:hover,
+          &:focus
+            color: $light-blue !important
+            text-decoration: underline
+            transition: all ease-in-out 200ms
+
+      .card
+        &:hover,
+        &:focus
+          box-shadow: none
+          border: 1px solid $dark-blue
+          transition: all ease-in-out 200ms
+
+    .portfolio-contact-form
+      form
+        padding: 0
+
+footer
+  background-color: $dark-blue !important

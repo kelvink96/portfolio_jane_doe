@@ -1,10 +1,85 @@
 header, main, footer {
-  padding-left: 40%; }
+  padding-left: 40%;
+  color: #363e56; }
+
+button {
+  box-shadow: none !important;
+  background-color: #363e56 !important; }
+  button:hover, button:focus {
+    background-color: #acbfff !important;
+    color: #363e56;
+    transition: all ease-in-out 200ms; }
 
 header ul {
-  background: url("../images/Caricature-Crop.png");
+  background: url("../images/jane doe.png");
   background-position: center;
   background-size: cover;
   width: 40% !important; }
+header .sidenav {
+  box-shadow: none; }
+
+main .container .portfolio-works .col {
+  padding: 0; }
+main .container .portfolio-works .image-container {
+  height: 15em; }
+  main .container .portfolio-works .image-container img {
+    width: 100%; }
+main .container .portfolio-about {
+  margin-top: 5%; }
+main .container .portfolio-skills .progress {
+  height: 20px;
+  background-color: #acbfff; }
+  main .container .portfolio-skills .progress .determinate {
+    background-color: #363e56; }
+main .container .portfolio-skills .project-stats {
+  background-color: #363e56;
+  height: 90px;
+  color: white; }
+  main .container .portfolio-skills .project-stats p {
+    font-size: 1.2em;
+    font-weight: 500; }
+main .container .portfolio-reputation img {
+  width: 80px;
+  height: 80px; }
+main .container .portfolio-reputation .reputation-text {
+  margin-left: 5%;
+  padding-top: 1%; }
+  main .container .portfolio-reputation .reputation-text p:first-of-type {
+    font-weight: 500;
+    font-size: 1.2em; }
+  main .container .portfolio-reputation .reputation-text span {
+    font-weight: 300;
+    margin-left: 5%; }
+main .container .portfolio-price .col {
+  padding: 0 5% 0 0; }
+main .container .portfolio-price .card-content {
+  padding: 0; }
+  main .container .portfolio-price .card-content .card-title {
+    padding: 1em 0;
+    font-weight: 600; }
+  main .container .portfolio-price .card-content .basic-title {
+    background-color: #7582ad;
+    color: white; }
+  main .container .portfolio-price .card-content .pro-title {
+    background-color: #363e56;
+    color: white; }
+  main .container .portfolio-price .card-content ul li {
+    padding: 0.5em 0; }
+main .container .portfolio-price .card-action a {
+  color: #363e56 !important;
+  font-weight: 600; }
+  main .container .portfolio-price .card-action a:hover, main .container .portfolio-price .card-action a:focus {
+    color: #acbfff !important;
+    text-decoration: underline;
+    transition: all ease-in-out 200ms; }
+main .container .portfolio-price .card:hover, main .container .portfolio-price .card:focus {
+  box-shadow: none;
+  border: 1px solid #363e56;
+  transition: all ease-in-out 200ms; }
+main .container .portfolio-contact-form form {
+  padding: 0; }
+
+footer {
+  background-color: #363e56 !important; }
 
 /*# sourceMappingURL=index.css.map */
