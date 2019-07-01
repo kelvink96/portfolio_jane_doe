@@ -16,11 +16,14 @@
 <main>
     <div class="container">
         <div class="menu">
-            <i class="fas fa-bars"></i>
+            <a href="#mySidenav" onclick="openNav()" id="openMainMenu"><i class="fas fa-bars"></i></a>
         </div>
-        <div class="portfolio-intro center-align">
+        <div class="portfolio-intro center-align row">
             <h2 class="">Kelvin Kiptum</h2>
             <p class="flow-text">Graphics and Web Designer</p>
+            <div class="col s12 show-avatar">
+                <img src="res/images/jane%20doe.png" alt="" class="">
+            </div>
             <button class="waves-effect waves-light btn"><i class="fas fa-file-download">&nbsp;&nbsp;</i> Download
                 Resume`
             </button>
@@ -181,6 +184,15 @@
                     </div>
                 </form>
             </div>
+        </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="menu-content vertical-center">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
         </div>
     </div>
 </main>

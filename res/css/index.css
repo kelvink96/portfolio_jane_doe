@@ -17,6 +17,38 @@ button {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+.show-avatar {
+  display: none; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: -10px 6px 20px 0 #d1d1d1; }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #363e56;
+    display: block;
+    transition: 0.3s;
+    margin-left: 10px; }
+    .sidenav a:hover, .sidenav a:focus {
+      color: #acbfff; }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 5em;
+    margin-left: 50px; }
+
 header ul {
   background: url("../images/jane doe.png");
   background-position: center;
@@ -25,6 +57,17 @@ header ul {
 header .sidenav {
   box-shadow: none; }
 
+main .container h4 {
+  font-weight: 600;
+  margin: 10% 0 5% 0; }
+main .container .menu a {
+  float: right;
+  margin: -3% -13% 0 0;
+  font-size: 2em;
+  color: #363e56; }
+  main .container .menu a:hover, main .container .menu a:focus {
+    color: #acbfff;
+    transition: all ease-in-out 200ms; }
 main .container .portfolio-works .col {
   padding: 0; }
 main .container .portfolio-works .main-image-container {
@@ -96,5 +139,21 @@ main .container .portfolio-contact-form form {
 
 footer {
   background-color: #363e56 !important; }
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0; }
+
+  .menu a {
+    margin-right: -6% !important; }
+
+  .show-avatar {
+    display: block;
+    margin: 0 auto 15px auto; }
+    .show-avatar img {
+      width: 100%; } }
+@media only screen and (max-width: 480px) {
+  .menu a {
+    margin-right: -3% !important; } }
 
 /*# sourceMappingURL=index.css.map */
