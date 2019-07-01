@@ -2,10 +2,12 @@ $dark-blue: #363e56
 $med-blue: #7582ad
 $light-blue: #acbfff
 
+//general styles
 header, main, footer
   padding-left: 40%
   color: $dark-blue
 
+//reusable styles
 button
   box-shadow: none !important
   background-color: $dark-blue !important
@@ -16,6 +18,14 @@ button
     color: $dark-blue
     transition: all ease-in-out 200ms
 
+.vertical-center
+  margin: 0
+  position: absolute
+  top: 50%
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+//specific
 header
   ul
     background: url("../images/jane doe.png")
@@ -32,8 +42,18 @@ main
       .col
         padding: 0
 
+      .main-image-container
+        height: 20em
+
       .image-container
-        height: 15em
+        height: 10em
+
+      .main-image-container, .image-container
+        position: relative
+        background-position: center
+        background-repeat: no-repeat
+        background-size: cover
+        overflow: hidden
 
         img
           width: 100%

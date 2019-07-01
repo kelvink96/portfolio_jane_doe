@@ -10,6 +10,13 @@ button {
     color: #363e56;
     transition: all ease-in-out 200ms; }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 header ul {
   background: url("../images/jane doe.png");
   background-position: center;
@@ -20,9 +27,17 @@ header .sidenav {
 
 main .container .portfolio-works .col {
   padding: 0; }
+main .container .portfolio-works .main-image-container {
+  height: 20em; }
 main .container .portfolio-works .image-container {
-  height: 15em; }
-  main .container .portfolio-works .image-container img {
+  height: 10em; }
+main .container .portfolio-works .main-image-container, main .container .portfolio-works .image-container {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+  main .container .portfolio-works .main-image-container img, main .container .portfolio-works .image-container img {
     width: 100%; }
 main .container .portfolio-about {
   margin-top: 5%; }
