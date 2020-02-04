@@ -9,7 +9,6 @@ Vendor assets include: <br>
 * all.min.css (font-awesome)
 
 **Js**
-* jquery.min.js v3.4.1
 * materialize.min.js v1.0.0
 
 **Icons**
