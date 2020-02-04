@@ -15,9 +15,6 @@ Vendor assets include: <br>
 **Icons**
 * font-awesome v5.11.2 (all.min.css)
 
-**Fonts**
-* By Google Fonts -> Raleway
-
 **Stock Images** <br>
 * Image assets have an <b>attribution</b> license, for this website I used them as placeholders for a 
 better look & feel, as well as user experience.
