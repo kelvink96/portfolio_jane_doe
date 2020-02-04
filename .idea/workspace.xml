@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4d64408-74ed-49d4-b626-02be99beda9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/css/materialize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Caricature-Crop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Cyborg v2.1.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Cyborg v2.3.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Eye color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Face Paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/High End-AMber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Low Poly2Crop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Text Potrait.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Tiger Face (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/images/Vector art2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/js/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/webfonts/fa-solid-900.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -125,7 +96,7 @@
       <workItem from="1562053252433" duration="1422000" />
       <workItem from="1562055320174" duration="217000" />
       <workItem from="1576187668720" duration="45000" />
-      <workItem from="1580412648634" duration="492000" />
+      <workItem from="1580412648634" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1560691167501</created>
@@ -183,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562055439325</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="# assets in place">
+      <created>1580413350669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580413350669</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,9 +173,14 @@
     <MESSAGE value="added firebase &#10;added hrefs to nav links" />
     <MESSAGE value="changed works gallery layout&#10;added new images" />
     <MESSAGE value="added onclick when link on nav is selected" />
-    <option name="LAST_COMMIT_MESSAGE" value="added onclick when link on nav is selected" />
+    <MESSAGE value="# assets in place" />
+    <option name="LAST_COMMIT_MESSAGE" value="# assets in place" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="425" y="25" key="CommitChangelistDialog2" timestamp="1580413347468">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="425" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580413347468" />
     <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580412825017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
