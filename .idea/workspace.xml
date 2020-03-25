@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4d64408-74ed-49d4-b626-02be99beda9f" name="Default Changelist" comment="" />
+    <list default="true" id="e4d64408-74ed-49d4-b626-02be99beda9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,11 +26,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="683" />
-    <option name="height" value="728" />
-  </component>
   <component name="ProjectId" id="1UttM4VUrE11OdFzBqmWGEsxYk3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/screenshot" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -97,6 +94,8 @@
       <workItem from="1580412648634" duration="705000" />
       <workItem from="1580841285728" duration="98000" />
       <workItem from="1580841732482" duration="47000" />
+      <workItem from="1580841800034" duration="230000" />
+      <workItem from="1580842051278" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1560691167501</created>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580841769841</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="# changes in README.md">
+      <created>1580841809102</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580841809102</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,10 +199,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="# changes in README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="25" key="CommitChangelistDialog2" timestamp="1580841768663">
+    <state x="425" y="25" key="CommitChangelistDialog2" timestamp="1580841807771">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580841768663" />
+    <state x="425" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580841807771" />
     <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580412825017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

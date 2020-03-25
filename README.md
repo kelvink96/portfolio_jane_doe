@@ -1,5 +1,7 @@
 # porfolio_jane_doe
 
+![alt text](screenshot/jane_doe_portfolio.jpg)
+
 porfolio_jane_doe is a designer portfolio, website template built on materialize-css.
 
 Vendor assets include: <br>
